@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="assets/img/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/nav.css" />
+    <link rel="stylesheet" href="assets/css/accueil.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, DépannePhone, Phone, téléphone, téléphones, réparation mobile, mobile, réparation, PowerUp, écran, réparation écran, réparations intérieures, Samsung,Iphone, apple, appareils, appareil, android, ios, instagram, reddit, github, twitter, présentation, France, sud de la france, Toulouse, Castres, prix, pricing table, Contact, index, facebook, google, googleplus"
+    />
+    <meta name="author" content="Jérémie Minetto" />
+
+    <meta
+      name="description"
+      content="Bienvenue sur le site DépannePhone, ici vous trouverez toutes sortent d'offres pour la réparation ou le changement de votre smartphone."
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <title>Accueil - DépannePhone</title>
+  </head>
+  <body>
+    <div class="menu_alt">
+      <ul>
+        <li class="active">
+          <a href="#" aria-label="button Accueil"
+            ><button class="btnTop">
+              Accueil
+              <svg
+                stroke-width="4"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                fill="none"
+                class="h-6 w-6"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  stroke-linejoin="round"
+                  stroke-linecap="round"
+                ></path>
+              </svg></button
+          ></a>
+        </li>
+        <li>
+          <a href="presentation.html" aria-label="button presentation"
+            ><button class="btnTop">
+              Présentation
+              <svg
+                stroke-width="4"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                fill="none"
+                class="h-6 w-6"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  stroke-linejoin="round"
+                  stroke-linecap="round"
+                ></path>
+              </svg></button
+          ></a>
+        </li>
+        <li>
+          <a href="services.html" aria-label="button services"
+            ><button class="btnTop">
+              Services
+              <svg
+                stroke-width="4"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                fill="none"
+                class="h-6 w-6"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  stroke-linejoin="round"
+                  stroke-linecap="round"
+                ></path>
+              </svg></button
+          ></a>
+        </li>
+        <li>
+          <a href="prix.html" aria-label="button prix"
+            ><button class="btnTop">
+              Fixation des prix
+              <svg
+                stroke-width="4"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                fill="none"
+                class="h-6 w-6"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  stroke-linejoin="round"
+                  stroke-linecap="round"
+                ></path>
+              </svg></button
+          ></a>
+        </li>
+        <li>
+          <a href="contact.html" aria-label="button contact"
+            ><button class="btnTop">
+              Contact
+              <svg
+                stroke-width="4"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                fill="none"
+                class="h-6 w-6"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  stroke-linejoin="round"
+                  stroke-linecap="round"
+                ></path>
+              </svg></button
+          ></a>
+        </li>
+      </ul>
+
+      <i class="fa-solid fa-xmark close_menu"></i>
+    </div>
+    <div class="fond">
+      <header>
+        <nav data-aos-duration="500" data-aos="fade-down">
+          <a href="#"
+            ><img src="assets/img/logo_sanfond.png" alt="logo" class="logo"
+          /></a>
+          <i
+            class="fa-solid fa-bars fa-2xl btnMenu"
+            data-aos-duration="500"
+            data-aos="fade-down"
+          ></i>
+        </nav>
+      </header>
+      <section class="presentation">
+        <div class="summary" data-aos-duration="500" data-aos="fade-right">
+          <h1>bienvenue</h1>
+
+          <h2 class="h2-top">
+            Chez <br />
+            DépannePhone
+          </h2>
+
+          <div class="vertical-ligne scale-in-ver-center"></div>
+
+          <div class="text-top">
+            <p>Réparation rapide et peu chère</p>
+            <p>des téléphones ios et android</p>
+            <p>peu importe la marque !</p>
+          </div>
+
+          <a href="#reparation"
+            ><button class="btn"><span>LIRE LA SUITE</span></button></a
+          >
+        </div>
+
+        <div class="telephone" data-aos-duration="500" data-aos="fade-up">
+          <img src="assets/img/tel.png" alt="téléphone en réparation" />
+        </div>
+      </section>
+
+      <section class="reparation-container" id="reparation">
+        <div
+          class="title-reparation"
+          data-aos-duration="1500"
+          data-aos="fade-down"
+          data-aos-delay="500"
+        >
+          <h2>Comment faire réparer mon appareil ?</h2>
+        </div>
+        <div class="grid-reparation">
+          <div
+            class="reparation-items"
+            data-aos-duration="1500"
+            data-aos="fade-up"
+            data-aos-delay="700"
+          >
+            <img src="assets/img/outils.svg" alt="outils" /><span
+              >Programmer un rendez-vous</span
+            >
+            <p>
+              Prenez rendez-vous en magasin ou à domicile (voir conditions).
+            </p>
+          </div>
+          <div
+            class="reparation-items"
+            data-aos-duration="1500"
+            data-aos="fade-up"
+            data-aos-delay="900"
+          >
+            <img src="assets/img/box.svg" alt="une boite" /><span
+              >Envoyer en réparation</span
+            >
+            <p>
+              Organisez l’envoie de votre appareil directement en centre de
+              réparation
+            </p>
+          </div>
+          <div
+            class="reparation-items"
+            data-aos-duration="1500"
+            data-aos="fade-up"
+            data-aos-delay="1100"
+          >
+            <img
+              src="assets/img/user-group-solid.svg"
+              alt="deux personnes"
+            /><span>Contacter un conseiller</span>
+            <p>Parlez à un conseiller de l’assistance DépannePhone</p>
+          </div>
+        </div>
+        <div class="reparation-btn">
+          <a href="contact.html"
+            ><button class="btn" data-aos-duration="1500" data-aos="fade-up">
+              <span>Obtenir de l'assistance</span>
+            </button></a
+          >
+        </div>
+      </section>
+
+      <section class="horizontal-container">
+        <div class="grid-horizontal" id="grid-horizontal">
+          <div class="horizontal-items" data-aos="fade-up">
+            <i class="fa-solid fa-bicycle"></i>
+            <p>
+              Démarche écologique pour les livraisons et la réception de vos
+              appareils
+            </p>
+          </div>
+          <div class="horizontal-items" data-aos="fade-up">
+            <i class="fa-regular fa-clock"></i>
+            <p>Réparation sous 1 semaines et expédition en moins de 3 jours</p>
+          </div>
+          <div class="horizontal-items" data-aos="fade-up">
+            <i class="fa-solid fa-certificate"></i>
+            <p>
+              Toutes les pièces utilisées dans le cadre de la réparation de
+              votre smartphone sont d’origine constructeur
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="slider">
+        <h2 id="avis" data-aos="fade-up">Avis clients</h2>
+        <div class="swiper-container">
+          <!-- S : slide image -->
+          <div class="swiper-wrapper" id="clients">
+            <div class="slider-item swiper-slide">
+              <div class="slider-image-wrapper" data-aos="fade-up">
+                <img
+                  class="slider-image"
+                  src="https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593358_1280.jpg"
+                  alt="SliderImg"
+                />
+              </div>
+              <div class="slider-item-content" data-aos="fade-up">
+                <h3>Melvyn B</h3>
+                <p>
+                  "Superbe prestation, téléphone rendu comme à l'état neuf,
+                  bravo !"
+                </p>
+              </div>
+            </div>
+            <div class="slider-item swiper-slide">
+              <div class="slider-image-wrapper">
+                <img
+                  class="slider-image"
+                  src="https://cdn.pixabay.com/photo/2015/01/08/18/30/entrepreneur-593371_1280.jpg"
+                  alt="SliderImg"
+                />
+              </div>
+              <div class="slider-item-content">
+                <h3>Jules H</h3>
+                <p>
+                  "Merci d'avoir réparer mon téléphone! votre service est tout
+                  simplement parfait !"
+                </p>
+              </div>
+            </div>
+            <div class="slider-item swiper-slide">
+              <div class="slider-image-wrapper">
+                <img
+                  class="slider-image"
+                  src="https://cdn.pixabay.com/photo/2017/05/13/12/40/fashion-2309519_640.jpg"
+                  alt="SliderImg"
+                />
+              </div>
+              <div class="slider-item-content">
+                <h3>Elise A</h3>
+                <p>
+                  "Superbe travail, retour du téléphone rapide et très efficace"
+                </p>
+              </div>
+            </div>
+            <div class="slider-item swiper-slide">
+              <div class="slider-image-wrapper">
+                <img
+                  class="slider-image"
+                  src="https://cdn.pixabay.com/photo/2016/12/19/21/36/woman-1919143_1280.jpg"
+                  alt="SliderImg"
+                />
+              </div>
+              <div class="slider-item-content">
+                <h3>Antoinette B</h3>
+                <p>
+                  "Superbe prestation, téléphone rendu comme à l'état neuf,
+                  bravo !"
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- S : slide buttons -->
+          <div class="slider-buttons">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+
+          <!-- S : slide pagination -->
+        </div>
+      </section>
+      <footer>
+        <div class="footer-container">
+          <div class="sec about">
+            <h2>À propos</h2>
+            <p>
+              DépannePhone est une entreprise de réparation mobile qui opère
+              principalement dans le sud de la France, vous pouvez nous
+              retrouvez dans nos boutiques physiques à Toulouse, Albi,
+              Montpellier et Castres ou bien, vous pouvez nous rejoindre sur les
+              réseaux sociaux suivants :
+            </p>
+            <ul class="sci">
+              <li>
+                <a href="https://www.instagram.com/" aria-label="icon-instagram"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/home" aria-label="icon-twitter"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/" aria-label="icon-facebook"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.reddit.com/" aria-label="icon-reddit"
+                  ><i class="fa-brands fa-reddit"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="sec quicklinks">
+            <h2>Liens rapides</h2>
+            <ul>
+              <li><a href="#">Accueil</a></li>
+              <li><a href="presentation.html">Présentation</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="prix.html">Fixation des prix</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="sec contact">
+            <h2>Contact</h2>
+            <ul class="info">
+              <li>
+                <span><i class="fa-solid fa-map"></i></span>
+                <span
+                  >647 Linda Street <br />
+                  Phoenixvile, PA 19460,<br />
+                  USA</span
+                >
+              </li>
+              <li>
+                <span><i class="fa-solid fa-phone"></i></span>
+                <p><a href="tel:+12345678900">+1 234 567 8900</a></p>
+              </li>
+              <li>
+                <span><i class="fa-solid fa-envelope"></i> </span>
+                <p>
+                  <a href="mailto:DépannePhone@gmail.com"
+                    >DépannePhone@gmail.com</a
+                  >
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+      <div class="copyright">
+        <p>Copyright © 2023 DépannePhone. Tous droits réservés.</p>
+      </div>
+    </div>
+    <script type="module" src="assets/js/main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/f8b6215dd6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          dynamicBullets: true,
+        },
+      });
+    </script>
+    <a id="button"></a>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

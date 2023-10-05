@@ -1,0 +1,429 @@
+main {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+.presentation {
+  padding: 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-image: url(/assets/img/wickedbackground.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 400px;
+  border: 0;
+}
+
+.presentation h2 {
+  padding-top: 4vw;
+  font-size: 3.5em;
+  max-width: 580px;
+  color: #fff;
+  font-weight: 800;
+  margin: 0;
+}
+.presentation p {
+  font-size: 1.4em;
+  max-width: 580px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.flex-container {
+  max-width: 60vw;
+  padding-bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.flex-container .title-grid {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.flex-container .title-grid h3 {
+  font-size: 2.5em;
+  color: #000;
+  font-weight: 600;
+}
+.flex-container .title-grid p {
+  font-size: 1.2em;
+  color: #000;
+  text-align: center;
+  max-width: 50vw;
+}
+
+.grid-container {
+  padding: 10vh 0 0 0;
+  max-width: 60vw;
+}
+.grid {
+  gap: 4vw;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  padding: 4vh 0;
+}
+.grid .image {
+  width: 30vw;
+}
+.grid .image img {
+  height: 20vw;
+  width: auto;
+  transition: transform 0.8s;
+}
+.grid .image:hover img {
+  transform: scale(1.1);
+}
+.grid .text-grid {
+  width: 30vw;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.grid h4,
+.banner h4 {
+  font-size: 2.4em;
+  font-weight: 700;
+  color: #000;
+  margin: 0;
+}
+.grid h6,
+.banner h6 {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #000;
+  margin: 0 0 2vh 0;
+}
+
+.grid p,
+.banner p {
+  text-align: left;
+  font-weight: 400;
+}
+
+span {
+  font-size: 1.2em;
+}
+.remarque {
+  color: #000;
+  font-weight: 500;
+}
+
+.remarqueP {
+  margin: 0;
+}
+
+.text-grid-left {
+  padding-left: 6vw;
+}
+
+.grid a {
+  color: #39a1ff;
+  font-weight: 700;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  background-color: #f1f1f1;
+  width: 60vw;
+  height: 30vh;
+  margin-bottom: 5vh;
+}
+.banner div {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  justify-content: center;
+}
+
+.banner img {
+  margin: 2vh 0;
+  width: 20vw;
+  height: auto;
+}
+
+.banner h4 {
+  padding: 0 0 0 3vw;
+}
+
+.banner p {
+  padding: 0 0 0 3vw;
+  font-size: 1.3em;
+}
+button {
+  background-color: #39a1ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0px;
+  font-size: 1.2em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+  margin: 2vh 2vw;
+  outline: none;
+  width: 250px;
+}
+
+button:hover {
+  background-color: #39a3ff9f;
+}
+
+button a {
+  color: #fff;
+}
+
+@media (min-width: 1200px) and (max-width: 1650px) {
+  .flex-container .title-grid h3 {
+    font-size: 1.6em;
+  }
+  .flex-container .title-grid p {
+    font-size: 1em;
+  }
+
+  .grid-container p,
+  .banner p,
+  .banner a {
+    font-size: 0.8em;
+  }
+
+  .grid-container h4,
+  .banner h4 {
+    font-size: 1.6em;
+  }
+
+  .grid-container h6 {
+    font-size: 1.4em;
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: row;
+    background-color: #f1f1f1;
+    height: 20vh;
+  }
+
+  .banner img {
+    width: 20vw;
+    height: auto;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1200px) {
+  .services div {
+    justify-content: center;
+    align-items: center;
+  }
+  .grid {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60vw;
+  }
+  .grid .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid .text-grid {
+    text-align: center;
+    align-items: center;
+    width: 60vw;
+  }
+
+  .flex-container .title-grid h3 {
+    font-size: 1.6em;
+  }
+  .flex-container .title-grid p {
+    font-size: 1.2em;
+  }
+
+  .grid .image img {
+    height: 30vh;
+  }
+
+  .text-grid-left {
+    padding: 0;
+  }
+
+  .grid-container p,
+  .banner a {
+    font-size: 1em;
+    text-align: center;
+  }
+  .banner p {
+    font-size: 0.8em;
+  }
+  .grid-container h4,
+  .banner h4 {
+    font-size: 2em;
+    width: 40vw;
+  }
+
+  .grid-container h6 {
+    font-size: 1em;
+    width: 40vw;
+  }
+
+  .banner {
+    height: 20vh;
+  }
+
+  .banner img {
+    width: 25vw;
+  }
+}
+
+@media (max-width: 1050px) {
+  .flex-container {
+    max-width: 80vw;
+  }
+  .flex-container .title-grid p {
+    max-width: 80vw;
+  }
+  .services h2 {
+    font-size: 1.8em;
+  }
+  .services p {
+    font-size: 1.4em;
+  }
+  .grid-container {
+    max-width: 80vw;
+  }
+  .grid {
+    align-items: center;
+    width: 80vw;
+  }
+  .grid .text-grid,
+  .text-grid h4,
+  .text-gridh6 {
+    width: 80vw;
+  }
+
+  .grid .text-grid {
+    width: 80vw;
+  }
+
+  .grid .image img {
+    width: 80vw;
+    height: auto;
+  }
+  .services {
+    background-size: 150%;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+    height: 60vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner div {
+    align-items: center;
+  }
+
+  .banner div h4,
+  .banner div p {
+    text-align: center;
+  }
+  .banner img {
+    margin-left: 0vw;
+    width: 40vw;
+  }
+}
+
+@media (max-width: 850px) {
+  .banner {
+    height: 40vw;
+    width: 60vw;
+  }
+  .banner div {
+    align-items: center;
+  }
+
+  .banner div h4 {
+    font-size: 1.4em;
+  }
+  .banner div p,
+  .banner div a {
+    font-size: 0.8em;
+  }
+  .banner img {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .services h2 {
+    font-size: 1.4em;
+  }
+  .services p {
+    font-size: 1.2em;
+  }
+
+  .services {
+    background-size: 250%;
+  }
+  .banner div h4 {
+    font-size: 1.8em;
+    padding: 0;
+  }
+  .banner div p,
+  .banner div a {
+    font-size: 1em;
+  }
+  button {
+    padding: 5px 10px;
+  }
+  .banner {
+    height: 60vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .presentation {
+    background-image: url(/assets/img/wickedbackground.png);
+    background-size: 250%;
+    background-repeat: no-repeat;
+
+    border: 0;
+  }
+
+  .services h2 {
+    font-size: 0.9em;
+  }
+  .services p {
+    font-size: 0.8em;
+    padding-top: 2vh;
+  }
+  .banner {
+    margin-bottom: 5vh;
+    height: 100vw;
+    width: 100vw;
+  }
+  .banner div h4 {
+    font-size: 1.2em;
+  }
+  .banner div p,
+  .banner div a {
+    font-size: 0.8em;
+  }
+}

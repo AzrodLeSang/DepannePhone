@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root {
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+  color-scheme: light dark;
+  color: #213547;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 5em;
+  line-height: 1.1;
+  font-weight: 800;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 500;
+  text-align: center;
+  font-size: 2em;
+}
+
+h3 {
+  font-weight: 500;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+span {
+  color: #39a1ff;
+  font-size: 1.4em;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 3.5em;
+  }
+}

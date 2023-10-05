@@ -1,0 +1,225 @@
+header {
+  background-color: #fff;
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease;
+  z-index: 500000;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.fixedTop {
+  position: fixed;
+  bottom: 2em;
+  right: 5em;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  padding: 0.5em;
+  display: block;
+  transition: transform 0.8s;
+}
+
+.fixedTop:hover {
+  transform: scale(1.5);
+}
+
+.fixe header .logo {
+  cursor: pointer;
+  height: 100px;
+}
+
+header i {
+  height: 50px !important;
+  color: black;
+  margin-top: 1.3em;
+}
+
+header i:hover {
+  transition: 0.1s ease all;
+  color: #39a1ff;
+  cursor: pointer;
+}
+
+header nav {
+  display: flex !important;
+  align-items: center;
+  width: 1140px !important;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 5% 0 5%;
+}
+
+.menu_alt {
+  position: absolute;
+  background: black !important ;
+  margin: 0;
+  width: 15vw;
+  height: 100vh;
+  flex-direction: row;
+  text-align: left;
+  justify-content: space-around;
+  display: flex;
+  transition: all 0.5s ease;
+  margin-left: -80%;
+  top: 0;
+}
+
+.menu_alt ul {
+  padding-top: 3vh;
+}
+.menu_alt ul li {
+  padding: 10px 0;
+}
+
+.menu_alt ul li a {
+  color: #fff;
+}
+
+.menu_alt ul li a:hover {
+  color: #39a1ff;
+}
+
+.menu_alt ul li.active a {
+  color: #39a1ff;
+}
+
+.fondu {
+  opacity: 0.5;
+  transition: all 0.5s ease;
+}
+.fond {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+.menu_ouvert {
+  position: fixed;
+  margin-left: 0;
+  opacity: 90%;
+  z-index: 455555;
+}
+
+.nonVisible {
+  display: none;
+}
+
+.close_menu {
+  font-size: 40px;
+  color: #fff;
+  cursor: pointer;
+  margin: 15px 0px 0 0;
+}
+
+@media (max-width: 1250px) {
+  .close_menu {
+    font-size: 40px;
+  }
+
+  .menu_alt {
+    width: 25vw;
+  }
+}
+
+@media (max-width: 780px) {
+  .menu_alt {
+    width: 30vw;
+  }
+  header .logo {
+    height: 90px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 650px) {
+  .menu_alt {
+    width: 40vw;
+  }
+  header .logo {
+    height: 80px;
+  }
+}
+
+@media (max-width: 499px) {
+  .menu_alt {
+    width: 60vw;
+  }
+
+  header .logo {
+    height: 70px;
+  }
+}
+
+.btnTop {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.btnTop {
+  position: relative;
+  display: flex;
+  font-weight: 600;
+  font-size: 20px;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.btnTop p {
+  margin: 0;
+  position: relative;
+  font-size: 20px;
+  color: #111;
+}
+
+.btnTop::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  left: 0;
+  bottom: -7px;
+  background: #39a1ff;
+  height: 2px;
+  transition: 0.3s ease-out;
+}
+
+.btnTop p::before {
+  position: absolute;
+  /*   box-sizing: border-box; */
+  content: "Subscribe";
+  width: 0%;
+  inset: 0;
+  color: #39a1ff;
+  overflow: hidden;
+  transition: 0.3s ease-out;
+}
+
+.btnTop:hover::after {
+  width: 100%;
+}
+
+.btnTop:hover p::before {
+  width: 100%;
+}
+
+.btnTop:hover svg {
+  transform: translateX(4px);
+  color: #39a1ff;
+}
+
+.btnTop svg {
+  color: #111;
+  transition: 0.2s;
+  position: relative;
+  width: 15px;
+  transition-delay: 0.2s;
+}
