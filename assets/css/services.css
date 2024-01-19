@@ -14,7 +14,7 @@ main {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  background-image: url(/assets/img/wickedbackground.png);
+  background-image: url(./assets/img/wickedbackground.png);
   background-size: 100%;
   background-repeat: no-repeat;
   height: 400px;
@@ -400,7 +400,7 @@ button a {
 
 @media (max-width: 500px) {
   .presentation {
-    background-image: url(/assets/img/wickedbackground.png);
+  
     background-size: 250%;
     background-repeat: no-repeat;
 
