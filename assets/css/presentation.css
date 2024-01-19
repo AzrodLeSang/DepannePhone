@@ -16,7 +16,7 @@ main {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  background-image: url(/assets/img/wickedbackground.png);
+  background-image: url(../img/wickedbackground.png);
   background-size: 100%;
   background-repeat: no-repeat;
   height: 700px;
@@ -609,7 +609,6 @@ hr {
     max-width: 500px;
   }
   .presentation {
-    background-image: url(/assets/img/wickedbackground.png);
     background-size: 150%;
     background-repeat: no-repeat;
     height: 700px;
