@@ -183,7 +183,7 @@
 }
 
 .horizontal-container {
-  background-image: url(./assets/img/vert.png);
+  background-image: url(../img/vert.png);
   background-repeat: no-repeat;
   padding-bottom: 3vh;
   background-size: 100%;
